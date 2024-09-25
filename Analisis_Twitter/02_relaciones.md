@@ -1,4 +1,4 @@
-Relaciones entre clases
+## Relaciones entre clases
 
     Usuario y Tweet:
 
@@ -34,3 +34,17 @@ Relaciones entre clases
 
         Tipo de relación: Composición.
         Justificación: Cada Usuario tiene un único Timeline, el cual está directamente asociado al usuario. Si un usuario se elimina, también se elimina su timeline.
+
+### Cardinalidad simple:
+
+    Composición:
+        Usuario —> Tweet
+        Usuario —> Timeline
+
+    Agregación:
+        Usuario —> Mensaje
+        Timeline —> Tweet
+
+    Dependencia:
+        Tweet —> Hashtag
+        Tweet —> Notificacion
