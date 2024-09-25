@@ -1,6 +1,6 @@
 ## Análisis estructural de Twitter como sistema orientado a objetos
 
-Twitter puede descomponerse en varias clases y objetos que interactúan entre sí para proporcionar las funcionalidades descritas anteriormente. A continuación, se describe un análisis preliminar de las clases principales que podrías considerar para un diagrama de clases.
+Este apartado identifica las clases mas importantes para el funcionamiento de twitter como red social, considerando su sistema de comunicación.
 
 ### 1. Clase Usuario (User)
 
