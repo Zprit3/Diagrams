@@ -76,11 +76,4 @@ Twitter puede descomponerse en varias clases y objetos que interactúan entre s�
         actualizar(): Actualizar el timeline con nuevos tweets de las cuentas seguidas
         mostrar(): Mostrar los tweets del timeline en tiempo real
 
-Interacciones entre clases
-
-    - Usuario y Tweet: Un usuario puede crear múltiples tweets, retuitear tweets de otros usuarios y dar "me gusta".
-    - Usuario y Usuario: Los usuarios pueden seguir o dejar de seguir a otros usuarios.
-    - Usuario y Mensaje: Los usuarios pueden enviarse mensajes directos.
-    - Usuario y Hashtag: Los usuarios pueden agregar hashtags a sus tweets, lo que luego permite buscar y agrupar temas.
-    - Usuario y Notificación: Cuando ocurre una interacción (retweet, "me gusta", mención), se genera una notificación para el usuario.
-    - Timeline y Tweet: El timeline se actualiza con los tweets de las cuentas seguidas por el usuario.
+- Más información sobre cada clase en el apartado de Detalle_Clases
