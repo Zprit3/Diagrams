@@ -35,7 +35,7 @@
 - Tipo de relación: Composición.
 - Justificación: Cada Usuario tiene un único Timeline, el cual está directamente asociado al usuario. Si un usuario se elimina, también se elimina su timeline.
 
-### Cardinalidad simple:
+### resumen simple:
 
     Composición:
         Usuario —> Tweet
